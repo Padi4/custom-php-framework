@@ -1,6 +1,6 @@
 # Simple PHP Framework
 
-This framework was created to demonstrate how the knowledge gained during AI lectures can be practically applied to create a relatively convenient tool for building web applications.
+This framework was created to demonstrate how the knowledge gained during PTW lectures can be practically applied to create a relatively convenient tool for building web applications.
 
 This article discusses the basics of the construction and mechanisms of this framework.
 

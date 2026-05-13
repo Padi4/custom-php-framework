@@ -1,6 +1,6 @@
 # Prosty framework PHP
 
-Ten framework został stworzony, aby zaprezentować jak wiedzę zdobytą podczas wykładów AI można wykorzystać w praktyce do stworzenia w miarę wygodnego narzędzia do budowania systemów internetowych.
+Ten framework został stworzony, aby zaprezentować jak wiedzę zdobytą podczas wykładów PTW można wykorzystać w praktyce do stworzenia w miarę wygodnego narzędzia do budowania systemów internetowych.
 
 W tym artykule omówione zostały podstawy konstrukcji i mechanizmy działania tego frameworka.
 
