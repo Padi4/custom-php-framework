@@ -38,6 +38,36 @@ switch ($action) {
         $controller = new \App\Controller\PostController();
         $view = $controller->deleteAction($_REQUEST['id'], $router);
         break;
+    case 'report-index':
+        $controller = new \App\Controller\ReportController();
+        $view = $controller->indexAction($templating, $router);
+        break;
+    case 'report-create':
+        $controller = new \App\Controller\ReportController();
+        $view = $controller->createAction($_REQUEST['report'] ?? null, $templating, $router);
+        break;
+    case 'report-edit':
+        if (! $_REQUEST['id']) {
+            break;
+        }
+        $controller = new \App\Controller\ReportController();
+        $view = $controller->editAction($_REQUEST['id'], $_REQUEST['report'] ?? null, $templating, $router);
+        break;
+    case 'report-show':
+        if (! $_REQUEST['id']) {
+            break;
+        }
+        $controller = new \App\Controller\ReportController();
+        $view = $controller->showAction($_REQUEST['id'], $templating, $router);
+        break;
+    case 'report-delete':
+        if (! $_REQUEST['id']) {
+            break;
+        }
+        $controller = new \App\Controller\ReportController();
+        $view = $controller->deleteAction($_REQUEST['id'], $router);
+        break;
+
     case 'info':
         $controller = new \App\Controller\InfoController();
         $view = $controller->infoAction();
